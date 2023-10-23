@@ -15,11 +15,7 @@ struct nameNode
 }*headName, *firstName;
 
 
-void Run();
-void InitTable();
-void PrintTable(struct numberNode *_number, struct nameNode *_name);
-void PrintNumber(char number[11]);
-void InsertNumber();
+
 
 char buttons[5][10] = {"Table", "Insert", "Delete", "Exit"};
 int length;
